@@ -6,40 +6,24 @@
 ### Author: Student/Group Name
 
 ### Links and Resources
-* [Assignment 1 First SB](https://codesandbox.io/s/q8n6zpqv6)
-* [Assignment 1 Second SB]()
-* [Assignment 2 First SB]()
-* [Assignment 2 Second SB]()
-* [Assignment 3 First SB]()
-* [Assignment 3 Second SB]()
+* [Assignment 1 All SB](https://codesandbox.io/s/q8n6zpqv6)
+* [Assignment 2 First SB](https://codesandbox.io/s/j233kpozvy)
+* [Assignment 2 Second SB](https://codesandbox.io/s/k2zyo1z6mv)
+* [Assignment 3 First SB](https://codesandbox.io/s/5mw63vkq24)
+* [Assignment 3 Second SB](https://codesandbox.io/s/5mw63vkq24)
 
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `index.js`
+##### import from App and run App;
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+#### `app.js`
+##### import in Form and run form with App state displaying functionality
 
-###### `bar(array) -> array`
-Usage Notes or examples
+#### `form.js`
+##### export out local state and run its functions to display the inputs.
 
 ### Setup
 #### `.env` requirements
 * `PORT` - Port Number
 * `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events
